@@ -1,0 +1,32 @@
+{
+  "name": "docsta-api-rysj",
+  "version": "1.0.0",
+  "description": "For the Education Docsta Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "sjain",
+    "rahul",
+    "sjain"
+  ],
+  "author": "Rahul Yadav",
+  "license": "",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^115.0.0",
+    "md5": "^2.3.0",
+    "mongoose": "^6.7.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "youtube-videos-uploader": "^2.0.18"
+  }
+}
